@@ -1,0 +1,427 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .single-footer-contact {
+        padding: 20px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-mobile a {
+        font-size: 16px;
+    }
+
+    .logo a img {
+        width: 100%;
+    }
+    .header-item a {
+        font-size: 15px;
+    }
+    .single-technology img {
+        width: 50%;
+    }
+
+    .career-content {
+        width: 60%;
+    }
+
+    .career-logo {
+        width: 40%;
+    }
+
+    .price-head h3 {
+        font-size: 20px;
+    }
+
+    .single-pricing span {
+        font-size: 16px;
+    }
+
+    .single-software-service {
+        padding: 30px 5px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logo {
+        padding: 10px 0;
+    }
+    .header-item a {
+        display: none;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+    .software-details-area {
+        padding-bottom: 50px;
+    }
+    p.footer-copyright {
+        font-size: 13px;
+    }
+    .logo a img {
+        width: 100%;
+    }
+
+    .single-slider {
+        height: 60vh;
+    }
+
+    .slider-content h2 {
+        font-size: 40px;
+    }
+
+    /* about page */
+    .about-image {
+        margin-top: 50px;
+    }
+
+    .vision {
+        padding-top: 50px;
+    }
+
+    .single-pricing {
+        margin-bottom: 25px;
+    }
+   
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .logo a img {
+        width: 120px;
+    }
+
+    .single-service p {
+        display: none;
+    }
+    .software-heading img, .service-heading img {
+        height: 100px;
+    }
+    .software-heading h4, .service-heading h4 {
+        font-size: 16px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .single-service .service-btn {
+        margin-top: 10px;
+    }
+    .single-software p {
+        display: none;
+    }
+    .logo {
+        padding: 10px 0;
+    }
+  
+    .btn {
+        padding: 5px 20px;
+    }
+
+    .getquote-area .btn {
+        margin-top: 20px;
+    }
+    .header-top-left p i {
+        margin-right: 2px;
+    }
+    .header-item a {
+        display: none;
+    }
+    .header-top-right li {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .header-top-left p {
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-top-right li.getQuote a {
+        padding: 6px;
+    }
+
+    .single-technology img {
+        width: 50%;
+    }
+
+    .single-technology:hover.single-technology img {
+        width: 60%;
+    }
+
+    .single-footer-contact {
+        padding: 25px;
+    }
+
+    .mobile-device-menu {
+        width: 60%;
+    }
+
+    .slider-content h2 {
+        font-size: 30px;
+    }
+
+    .slider-content p {
+        font-size: 16px;
+    }
+
+    .single-slider {
+        height: 50vh;
+    }
+
+    .single-achievement .counter.h1 {
+        font-size: 40px;
+    }
+
+    .single-achievement {
+        padding: 10px;
+    }
+
+    .single-achievement span {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .single-testimonial p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .single-choose {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .why-choose-area {
+        padding-bottom: 0;
+    }
+
+    .single-service,
+    .single-software {
+        padding: 20px 10px;
+    }
+
+    .copyright_link {
+        justify-content: center;
+    }
+
+    p.footer-copyright {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .service-area {
+        padding: 0;
+    }
+
+    .software-area {
+        padding-bottom: 0;
+    }
+
+    .testimonial-area,
+    .valuable-area,
+    .achievement-area,
+    .footer-contact-area,
+    .footer-area {
+        padding: 40px 0;
+    }
+
+    .why-choose-area {
+        padding-top: 40px;
+    }
+
+    .footer-social a {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-widget h5 {
+        font-size: 16px;
+    }
+
+    /* team page */
+    .team-content {
+        padding: 5px;
+        height: 70px;
+    }
+
+    .team-social i {
+        font-size: 14px;
+        padding: 7px;
+        width: 30px;
+        height: 30px;
+        line-height: 16px;
+    }
+
+    .team-content h6 {
+        font-size: 12px;
+    }
+
+    .breadcrumb-area {
+        height: 20vh;
+    }
+
+    .breadcrumb-area .breadcrumb-item {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .about-area {
+        padding-top: 50px;
+    }
+
+    /* career page */
+    .single-career {
+        display: block !important;
+    }
+
+    .career-content {
+        width: 100%;
+    }
+
+    .career-logo {
+        width: 100%;
+    }
+
+    .career-logo span {
+        display: block;
+    }
+
+    .career-logo img {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    /* about page */
+    .vision {
+        padding-top: 50px;
+    }
+
+    .about-image {
+        margin-top: 30px;
+    }
+
+    /* testimonial */
+    .single-testimonial h4 {
+        font-size: 18px;
+    }
+
+    /* software */
+    .software-details-area {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .module-area {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .module-bg {
+        padding: 20px;
+    }
+
+    .single-module ul li {
+        font-size: 16px;
+    }
+
+    .single-pricing {
+        margin-bottom: 25px;
+    }
+
+    .software-gallery-area,
+    .package-area {
+        padding-top: 50px;
+    }
+
+    .softrware-content ul {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .software-service-area {
+        margin-top: 50px;
+    }
+
+    .single-software-heading h4 {
+        font-size: 18px;
+    }
+
+    .single-career {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .header-top-left p {
+        font-size: 14px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .mobile-device-menu {
+        width: 60%;
+    }
+
+    .single-technology img {
+        width: 30%;
+    }
+
+    .single-technology:hover.single-technology img {
+        width: 40%;
+    }
+
+    .mobile-space {
+        max-width: 95vw;
+        width: 100%;
+    }
+    .header-item a {
+        display: none;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+
+    .copyright-area {
+        padding: 15px 0;
+    }
+
+    .copyright_link {
+        justify-content: center;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* team page */
+    .team-content {
+        padding: 15px;
+    }
+
+    .team-content h6 {
+        font-size: 15px;
+    }
+
+    .team-social i {
+        width: 40px;
+        height: 40px;
+        line-height: 25px;
+    }
+
+    /* about page */
+    .about-image {
+        margin-top: 30px;
+    }
+}
